@@ -1,0 +1,251 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+ul,ol{
+  list-style-type: none;
+}
+img{
+  vertical-align: middle;
+  border: 0;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Proza Libre', sans-serif;
+}
+p,a,span,strong,ul,ol,.btn,.form-control,label{
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ===============================================================================================
+                                          Sub Navbar Part Css
+================================================================================================= */
+#sub-navbar{
+  background: #f9f9f9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.sub-navbar-title h1{
+  color: #34495e;
+  font-size: 30px;
+  font-weight: 600;
+}
+.sub-navbar-title span{
+  color: #2f3542;
+  font-size: 18px;
+  font-weight: 700;
+}
+.sub-navbar-title p{
+  color: #2c2c54;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* ===============================================================================================
+                                            Navbar Part Css
+================================================================================================= */
+.navbar{
+  background: #404853;
+  padding: 15px 0;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-left: 1px solid rgba(255, 255, 255,0.5);
+  transition: all linear .3s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #218c74;
+  background: #ffffff;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+  color: #218c74;
+}
+.mr1{
+  border-right: 1px solid rgba(255, 255, 255,0.5);
+}
+/* ==============================================================================================
+                                          About Part Css
+================================================================================================= */
+#about{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #f9f9f9;
+}
+.about-details{
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05);
+  margin-bottom: 40px;
+}
+.about-details h6{
+  color: #34495e;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(52, 73, 94,0.8);
+  display: inline;
+}
+.about-details p{
+  color: #555555;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+  margin-top: 15px;
+}
+.image{
+  background: #ffffff;
+  padding: 10px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05);
+  margin-bottom: 40px;
+}
+.articles{
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05);
+}
+.articles h6{
+  color: #34495e;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(52, 73, 94,0.8);
+  display: inline;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  color: #34495e;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background: #f9f9f9;
+}
+.nav-tabs .nav-link{
+  color: #218c74;
+  font-family: 'Proza Libre', sans-serif;
+}
+.article-content{
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dee2e6;
+}
+.article-content a h5{
+  color: #2c2c54;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.article-content p i{
+  color: #218c74;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.article-content p a{
+  color: #666666;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all linear .3s;
+  line-height: 26px;
+}
+.article-content p a:hover{
+  color: #218c74;
+}
+.article-content span{
+  color: #666666;
+}
+.view{
+  margin-top: 10px;
+}
+.view a{
+  color: #555555;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+.view a i{
+  color: #218c74;
+  margin-right: 5px;
+}
+.link{
+  background: #ffffff;
+  padding: 15px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05);
+  margin-bottom: 40px;
+}
+.link h6{
+  color: #34495e;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(52, 73, 94,0.8);
+  display: inline;
+}
+.link ul li{
+  font-weight: 500;
+  font-size: 16px;
+  transition: all linear .3s;
+  padding-bottom: 5px;
+}
+.link ul li:hover{
+  transform: translateX(5px);
+}
+.link ul li a{
+  color: #218c74;
+}
+.link ul li a i{
+  color: #e58e26;
+  margin-right: 5px;
+}
+.other-journal{
+  background: #ffffff;
+  padding: 15px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05);
+  margin-bottom: 40px;
+}
+.other-journal h6{
+  color: #34495e;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(52, 73, 94,0.8);
+  display: inline;
+}
+.mr2{
+  margin-top: 20px;
+}
+.ad{
+  background: #ffffff;
+  padding: 90px 0px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05);
+}
+.ad h6{
+  font-size: 30px;
+  color: #666666;
+}
+/* =================================================================================================
+                                              Footer Part Css
+==================================================================================================== */
+#footer{
+  background: #404853;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.footer-content a{
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer-content h6{
+  color: #ffffff;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+}
