@@ -19,7 +19,7 @@ img{
 h1,h2,h3,h4,h5,h6{
   font-family: 'Proza Libre', sans-serif;
 }
-p,a,span,strong,ul,ol,.btn,.form-control,label{
+p,a,span,strong,ul,ol,.btn,.form-control,label,::placeholder{
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -248,4 +248,128 @@ p,a,span,strong,ul,ol,.btn,.form-control,label{
   margin-top: 10px;
   font-weight: 500;
   font-size: 16px;
+}
+
+/* ==================================================================================================
+                                           Contact Us Part Css
+===================================================================================================== */
+#contact{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #f9f9f9;
+}
+.contact-us{
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05);
+}
+.contact-us h6{
+  color: #34495e;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(52, 73, 94,0.8);
+  display: inline;
+}
+.contact-us p{
+  color: #555555;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+  margin-top: 15px;
+}
+.form label{
+  font-size: 16px;
+  font-weight: 600;
+  color: #e58e26;
+}
+.form .form-control{
+  color: #999999;
+}
+.form .form-control:focus{
+  box-shadow: none;
+  border-color: #999999;
+}
+.form .btn{
+  border-radius: 5px;
+  background: #218c74;
+  border-color: #218c74;
+}
+.address{
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05);
+}
+.address h6{
+  color: #34495e;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(52, 73, 94,0.8);
+  display: inline;
+}
+.add-details{
+  margin-left: 20px;
+}
+.add-details p{
+  color: #444444;
+  font-size: 16px;
+}
+.add-details p i{
+  color: #218c74;
+  margin-right: 10px;
+}
+.address span{
+  color: #444444;
+  margin-left: 15px;
+}
+
+/* ===================================================================================================
+                                             Submit Paper Part Css
+===================================================================================================== */
+#submit{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #f9f9f9;
+}
+
+/* ==================================================================================================
+                                             Editorial Board Part Css
+===================================================================================================== */
+#editorial-board{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #f9f9f9;
+}
+.editorial-boards{
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05);
+}
+.editorial-boards h6{
+  color: #34495e;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(52, 73, 94,0.8);
+  display: inline;
+}
+.editorial-details{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.editorial-boards h5{
+  color: #e58e26;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.editorial-boards span{
+  color: #444444;
+  font-size: 16px;
+  font-weight: 400;
+}
+.editorial-boards a{
+  color: #ffffff;
+  background: #218c74;
+  padding: 6px 12px;
+  border-radius: 5px;
 }
