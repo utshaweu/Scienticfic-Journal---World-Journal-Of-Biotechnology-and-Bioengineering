@@ -230,6 +230,14 @@ p,a,span,strong,ul,ol,.btn,.form-control,label,::placeholder{
   font-size: 30px;
   color: #666666;
 }
+.mr3{
+  color: #666666;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 25px;
+  line-height: 24px;
+  font-style: italic;
+}
 /* =================================================================================================
                                               Footer Part Css
 ==================================================================================================== */
@@ -372,4 +380,139 @@ p,a,span,strong,ul,ol,.btn,.form-control,label,::placeholder{
   background: #218c74;
   padding: 6px 12px;
   border-radius: 5px;
+}
+
+/* =========================================================================================================
+                                           Article Details Part Css
+============================================================================================================ */
+#article-details{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #f9f9f9;
+}
+.article-details{
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05);
+}
+.article-details h6{
+  color: #34495e;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(52, 73, 94,0.8);
+  display: inline;
+}
+.abstract h5{
+  color: #218c74;
+  margin-top: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.abstract p{
+  color: #444444;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+  margin-left: 15px;
+}
+
+/* ==========================================================================================================
+                                                    More Part Css
+============================================================================================================ */
+#more{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #f9f9f9;
+}
+.more-details{
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05); 
+}
+.more-details h6{
+  color: #999999;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+/* ============================================================================================================
+                                              Objective And Scope Part Css
+=============================================================================================================== */
+#objective{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #f9f9f9;
+}
+.object{
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05); 
+}
+.object h6{
+  color: #34495e;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(52, 73, 94,0.8);
+  display: inline;
+}
+
+/* ============================================================================================================
+                                             Editorial Process Part Css
+============================================================================================================== */
+#editorial-process{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #f9f9f9;
+}
+.process{
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05);
+}
+.process h6{
+  color: #34495e;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(52, 73, 94,0.8);
+  display: inline;
+}
+.process p{
+  margin-top: 15px;
+}
+.process span{
+  color: #218c74;
+  font-size: 18px;
+  font-weight: 600;
+}
+.process span i{
+  color: #e58e26;
+  margin-right: 8px;
+}
+
+/* ==============================================================================================================
+                                             Author Guidelines Part Css
+================================================================================================================ */
+#guideline{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #f9f9f9;
+}
+.author{
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05);
+}
+.author h6{
+  color: #34495e;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(52, 73, 94,0.8);
+  display: inline;
+}
+.author h5{
+  color: #218c74;
+  font-weight: 500;
 }
