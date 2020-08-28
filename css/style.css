@@ -516,3 +516,82 @@ p,a,span,strong,ul,ol,.btn,.form-control,label,::placeholder{
   color: #218c74;
   font-weight: 500;
 }
+
+/* =================================================================================================================
+                                            Peer Review Process Part Css
+==================================================================================================================== */
+#peer{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #f9f9f9;
+}
+.peer-review{
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05);
+}
+.peer-review h6{
+  color: #34495e;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(52, 73, 94,0.8);
+  display: inline;
+}
+.peer-review p{
+  color: #555555;
+  line-height: 26px;
+}
+
+/* ===========================================================================================================
+                                                    Anti Part Css
+============================================================================================================ */
+#anti{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #f9f9f9;
+}
+
+/* =========================================================================================================
+                                               Privacy Policy Part Css
+============================================================================================================ */
+#privacy{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #f9f9f9;
+}
+.privacy-policy{
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 1px 0 10px rgba(0,0,0,0.05);
+}
+.privacy-policy h6{
+  color: #34495e;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(52, 73, 94,0.8);
+  display: inline;
+}
+.privacy-policy h5{
+  color: #218c74;
+  font-weight: 600;
+  font-size: 18px;
+}
+.privacy-policy h5 i{
+  color: #e58e26;
+  margin-right: 8px;
+}
+.privacy-policy p{
+  color: #666666;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+/* =================================================================================================
+                                        Copyright Part Css
+==================================================================================================== */
+#copyright{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #f9f9f9;
+}
